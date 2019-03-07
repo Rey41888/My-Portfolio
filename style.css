@@ -1,0 +1,210 @@
+div.intro {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: raleway;
+    font-size: 250%;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 2%;
+}
+
+div#main {
+    display: flex;
+    align-items: flex-start;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+}
+
+header>b {
+    color: red;
+}
+
+b {
+    color: rgb(82, 238, 82);
+}
+
+#nav,
+{
+    background-color: rgb(41, 41, 41);
+    padding: 2px;
+    margin: 0px;
+    border: 0px;
+}
+
+ul {
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+li {
+    display: inline;
+    padding: 15px 30px;
+}
+
+a {
+    text-align: center;
+    color: #eb42eb;
+    text-decoration: none;
+    font-family: open sans, sans-serif;
+    font-size: 140%;
+}
+
+a:hover {
+    color: rgb(51, 238, 51);
+    transition: 0.5s
+}
+
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+img.rey {
+    border-radius: 50%;
+    border: solid white 10px;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+    font-family: raleway;
+    color: red;
+    font-size: 50px;
+    border-top: solid black 20px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    font-family: raleway;
+    box-sizing: border-box;
+    margin-left: 400px;
+    margin-right: 200px;
+    margin-top: 120px;
+    text-align: left;
+    background-color: whitesmoke;
+    float: auto;
+    color: rgb(78, 78, 78);
+    padding: 40px;
+    line-height: 1.7;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px 50px 10px 50px;
+}
+
+img.html {
+    padding-bottom: 100px;
+    margin-left: 450px;
+}
+
+#header {
+    background-color: black;
+    border: 2px;
+    margin: 0;
+}
+
+img.feature-pic {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+strong {
+    color: green;
+}
+
+#footer {
+    background-color: rgb(41, 41, 41);
+    padding: 50px;
+    color: navajowhite;
+    font-family: raleway;
+    text-align: center
+}
+
+#form {
+    font-family: raleway;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+}
+
+div#about {
+    background-color: white;
+}
+
+div#work {
+    background-color: white;
+}
+
+div#vlog {
+    background-color: white;
+}
+
+div#contact {
+    background-color: rgb(218, 218, 218);
+}
+
+
+/* Contact Form */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #5586f0f6;
+    padding: 20px;
+}
+
+@media (max-width:600px) {
+    p {
+        font-family: raleway;
+        background: lightgreen;
+        clear: both;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    .html {
+        display: none;
+    }
+    .intro {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0;
+        text-align: left;
+    }
+    .logo {
+        display: none;
+    }
+    .rey {
+        width: 95%;
+    }
+}
